@@ -1,4 +1,3 @@
 [submodule "workspace/transportino_interfaces"]
 	path = workspace/transportino_interfaces
 	url = https://github.com/mattsays/transportino_interfaces.git
-	branch = main
