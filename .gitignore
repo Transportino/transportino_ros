@@ -1,3 +1,4 @@
 workspace/build
 workspace/install
 workspace/log
+workspace/launch/__pycache__
