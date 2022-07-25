@@ -1,11 +1,12 @@
 version: "3.9"
 services:
   ros_ws:
-    image: osrf/ros:galactic-desktop
+    image: transportino_ros_ws:latest
     environment:
       - RMW_IMPLEMENTATION=rmw_fastrtps_cpp
     stdin_open: true
     tty: true
     network_mode: host
+    working_dir: /root/dev_ws/
     volumes:
-      - ./workspace:/root/dev_ws/
+      - ../workspace:/root/dev_ws/
