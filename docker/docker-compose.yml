@@ -10,3 +10,4 @@ services:
     working_dir: /root/dev_ws/
     volumes:
       - ../workspace:/root/dev_ws/
+
