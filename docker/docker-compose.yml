@@ -2,8 +2,8 @@ version: "3.9"
 services:
   ros_ws:
     image: transportino_ros_ws:latest
-    environment:
-      - RMW_IMPLEMENTATION=rmw_fastrtps_cpp
+    devices:
+      - /dev/ttyUSB0:/dev/ttyUSB0
     stdin_open: true
     tty: true
     network_mode: host
