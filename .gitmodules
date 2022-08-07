@@ -1,6 +1,6 @@
 [submodule "workspace/src/transportino_interfaces"]
 	path = workspace/src/transportino_interfaces
-	url = https://github.com/mattsays/transportino_interfaces.git
+	url = https://github.com/Transportino/transportino_interfaces.git
 [submodule "workspace/src/transportino_led"]
 	path = workspace/src/transportino_led
 	url = https://github.com/Transportino/transportino_led.git
