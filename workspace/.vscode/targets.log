@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
 # GNU Make 4.3
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Aug  8 12:26:05 2022
+# Make data base, printed on Tue Aug  9 10:49:08 2022
 
 # Variables
 
@@ -109,7 +107,7 @@ MAKEFILE_LIST :=
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 3095
+VSCODE_PID = 1196
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
@@ -119,7 +117,7 @@ CSF_XSMessage = /usr/share/opencascade/resources/XSMessage
 # environment
 DRAWDEFAULT = /usr/share/opencascade/resources/DrawResources/DrawDefault
 # environment
-SESSION_MANAGER = local/ManjaroBook:@/tmp/.ICE-unix/761,unix/ManjaroBook:/tmp/.ICE-unix/761
+SESSION_MANAGER = local/ManjaroBook:@/tmp/.ICE-unix/789,unix/ManjaroBook:/tmp/.ICE-unix/789
 # automatic
 *F = $(notdir $*)
 # environment
@@ -197,7 +195,7 @@ XDG_VTNR = 1
 # makefile
 .DEFAULT_GOAL := 
 # environment
-SYSTEMD_EXEC_PID = 517
+SYSTEMD_EXEC_PID = 562
 # environment
 CSF_TObjMessage = /usr/share/opencascade/resources/TObj
 # environment
@@ -271,9 +269,9 @@ LC_IDENTIFICATION = en_US.UTF-8
 
 # Directories
 
-# . (device 2068, inode 2270562): 10 files, no impossibilities.
+# . (device 2068, inode 1844961): 7 files, no impossibilities.
 
-# 10 files, no impossibilities in 1 directories.
+# 7 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -323,12 +321,14 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 18 / storage = 146 B / avg = 8 B
-# current buf: size = 8162 B / used = 146 B / count = 18 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 15 / storage = 128 B / avg = 8 B
+# current buf: size = 8162 B / used = 128 B / count = 15 / avg = 8 B
 
-# strcache performance: lookups = 21 / hit rate = 14%
+# strcache performance: lookups = 18 / hit rate = 16%
 # hash-table stats:
-# Load=18/8192=0%, Rehash=0, Collisions=0/21=0%
-# Finished Make data base on Mon Aug  8 12:26:05 2022
+# Load=15/8192=0%, Rehash=0, Collisions=0/18=0%
+# Finished Make data base on Tue Aug  9 10:49:08 2022
 
  
+make: *** No rule to make target 'all'.  Stop.
+
