@@ -7,3 +7,6 @@
 [submodule "workspace/src/transportino_lidar"]
 	path = workspace/src/transportino_lidar
 	url = https://github.com/Transportino/transportino_lidar.git
+[submodule "workspace/src/transportino_description"]
+	path = workspace/src/transportino_description
+	url = https://github.com/Transportino/transportino_description.git
